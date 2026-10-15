@@ -1,0 +1,28 @@
+JAVA ARRAY PROGRAMS — INDEX
+
+
+Day 1 : 13-10-2026
+
+
+P1 - WAP to declare an integer array, assign values to its elements, and print each element individually.
+P2 - WAP to take input for all elements of an integer array using a for loop and print the elements using an enhanced for loop.
+P3 - WAP to create and return an integer array from a method, then print the returned array.
+P4 - WAP to find the sum of all elements of an array.
+P5 - WAP to find the sum of elements stored at even indices of an array.
+P6 - WAP to print all array elements whose values are less than or equal to 35.
+
+
+
+Day 2 : 14-10-2026
+
+
+P7 - WAP to combine two arrays into one single array.
+P8 - WAP to find the largest element (maximum) in an array.
+P9 - WAP to find the smallest element (minimum) in an array.
+P10 - WAP to find the second-largest distinct element in an array.
+P11 - WAP to find the second-smallest distinct element in an array.
+P12 - WAP to find the occurrence frequency of each distinct element in an array.
+P13 - WAP to remove duplicate elements from an array and display the unique elements.
+P14 - WAP to convert each array element into a single digit by repeatedly calculating the sum of its digit
+
+
