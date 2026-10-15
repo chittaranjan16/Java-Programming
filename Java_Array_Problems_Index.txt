@@ -26,3 +26,14 @@ P13 - WAP to remove duplicate elements from an array and display the unique elem
 P14 - WAP to convert each array element into a single digit by repeatedly calculating the sum of its digit
 
 
+Day 3 : 15-10-2026 (sorting)
+
+
+P15 - Bubble sorting
+P16 - Selection sorting
+P17 - Insertion sorting
+
+
+
+
+
