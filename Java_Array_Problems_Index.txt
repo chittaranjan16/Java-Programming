@@ -34,6 +34,10 @@ P16 - Selection sorting
 P17 - Insertion sorting
 
 
+Day 4 : 16-10-2026 (sorting)
 
+
+p18 - merge sorting
+p19 - quick sorting
 
 

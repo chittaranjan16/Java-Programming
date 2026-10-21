@@ -1,12 +1,13 @@
 package day3;
 
 import java.util.Arrays;
+//bubble sorting
 
 public class p15 {
     public static void main(String[] args) {
 
 
-        int[] arr = {10, 2 , 5 , 15 , 7};
+        int[] arr = {10, 2 , 5 , 1 , 7};
 
         for(int i = 0 ; i < arr.length ; i++){
 
@@ -17,10 +18,12 @@ public class p15 {
                     int temp = arr[j];
                     arr[j]= arr[j+1];
                     arr[j+1]=temp;
+
                 }
             }
+            System.out.println(Arrays.toString(arr));
         }
 
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
     }
 }
