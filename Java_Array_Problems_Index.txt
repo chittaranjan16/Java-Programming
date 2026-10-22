@@ -41,3 +41,14 @@ p18 - merge sorting
 p19 - quick sorting
 
 
+Day 5 : 22-10-2026 (2d array)
+
+p20 - 2darray - basis Printing values and Adding values
+p21 - Sum of All Element
+p22 - Largest and Smallest element
+p23 - Sum of Rows element
+p24 - Sum of Column element
+p25 - Sum of TWO arrays
+p26 - Matrix Multiplication {3*3}  
+
+
