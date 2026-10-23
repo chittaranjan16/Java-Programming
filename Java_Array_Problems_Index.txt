@@ -7,8 +7,8 @@ Day 1 : 13-10-2026
 P1 - WAP to declare an integer array, assign values to its elements, and print each element individually.
 P2 - WAP to take input for all elements of an integer array using a for loop and print the elements using an enhanced for loop.
 P3 - WAP to create and return an integer array from a method, then print the returned array.
-P4 - WAP to find the sum of all elements of an array.
-P5 - WAP to find the sum of elements stored at even indices of an array.
+P4 - sum of all elements of an array.
+P5 - sum of elements stored at even indices of an array.
 P6 - WAP to print all array elements whose values are less than or equal to 35.
 
 
@@ -43,12 +43,17 @@ p19 - quick sorting
 
 Day 5 : 22-10-2026 (2d array)
 
-p20 - 2darray - basis Printing values and Adding values
+p20 - 2darray basis Printing values and Adding values
 p21 - Sum of All Element
 p22 - Largest and Smallest element
 p23 - Sum of Rows element
 p24 - Sum of Column element
 p25 - Sum of TWO arrays
-p26 - Matrix Multiplication {3*3}  
+p26 - Matrix Multiplication {3*3}
 
+
+Day 6 : 23-10-2026 (2d array)
+
+p27 - Pascal Tree
+p28 - Spiral Pattern Matrix
 
