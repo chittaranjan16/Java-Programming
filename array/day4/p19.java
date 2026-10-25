@@ -3,48 +3,48 @@ package day4;
 import java.util.Arrays;
 
 public class p19 {
-    public static void main(String[] args)
-    {
-        int[] arr = {9 , 4 , 1 , 3};
-        sort(arr , 0 , arr.length-1);
-        System.out.println(Arrays.toString(arr));
-    }
+    public static void main(String[] args) {
 
+            int[] arr = {9, 4, 1, 3, 8, 2};
 
-    //    sorting / dividing array using pivot
-    public static void sort(int[] arr , int low , int high){
-        if(low < high){
-
-            int pivot = partition(arr , low , high);
-
-            sort(arr , low , pivot-1);
-            sort(arr , pivot+1 , high);
+            quickSort(arr, 0, arr.length - 1);
+            System.out.println(Arrays.toString(arr));
         }
-    }
+
+        public static void quickSort(int[] arr, int start, int end) {
+            if (start < end) {
+
+                int pivot = arr[(start + end) / 2];
+
+                int i = start;
+                int j = end;
 
 
-    //    placing pivot at its correct position
-    public static int partition(int[] arr , int low , int high)
-    {
-        int pivot = arr[high];
-        int i = low-1;
+                while (arr[i] < pivot) {
+                        i++;
+                    }
+                while (arr[j] > pivot) {
+                        j--;
+                    }
 
-        for(int j = low ; j < high ; j++)
-        {
-            if(arr[j] < pivot){
-                i++;
+                if (i <= j)
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
 
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+                    i++;
+                    j--;
+                }
+
+
+                if (start < j) {
+                    quickSort(arr, start, j);
+                }
+
+                if (i < end) {
+                    quickSort(arr, i, end);
+                }
             }
         }
-
-        int temp = arr[i+1];
-        arr[i+1] = arr[high];
-        arr[high] = temp;
-
-        return i+1;
     }
-
-}

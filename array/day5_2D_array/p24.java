@@ -1,8 +1,8 @@
-package day5;
+package day5_2D_array;
 
 
-//sum of row elements
-public class p23 {
+//sum of columns elements
+public class p24 {
 
     public static void main(String[] args) {
 
@@ -17,10 +17,10 @@ public class p23 {
             int sum = 0;
             for(int j = 0; j < arr[i].length ; j++)
             {
-                sum = sum+arr[i][j];
+                sum = sum+arr[j][i];
 
             }
-            System.out.print("row no "+i +", sum : "+ sum);
+            System.out.print(sum + ":  sum of column");
             System.out.println();
         }
     }

@@ -1,4 +1,4 @@
-package day5;
+package day5_2D_array;
 
 
 //sum of two arrays

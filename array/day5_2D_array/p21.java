@@ -1,8 +1,6 @@
-package day5;
+package day5_2D_array;
 
 //sum of all elemnets of 2d array
-
-import java.util.Arrays;
 
 public class p21 {
     public static void main(String[] args) {

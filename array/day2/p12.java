@@ -7,7 +7,7 @@ public class p12 {
 
         for(int i = 0 ; i< arr.length ; i++){
 
-//            check if the elemeny is precounted or not, if counted skips
+//            check if the element is pre counted or not, if counted skips
             if(arr[i] == '\u0000'){
                 continue;
             }

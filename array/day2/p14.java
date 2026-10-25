@@ -15,11 +15,9 @@ public class p14 {
                 int sum = 0;
 
                 while(num > 0){
-
                     int rem = num % 10;
                     sum = sum + rem;
                     num = num / 10;
-
                 }
 
                 arr[i]= sum;

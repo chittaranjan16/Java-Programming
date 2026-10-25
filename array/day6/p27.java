@@ -28,8 +28,8 @@ public class p27 {
 
             arr[i] = new int[i + 1];
 
-            for (int j = 0; j < arr[i].length; j++) {
-
+            for (int j = 0; j < arr[i].length; j++)
+            {
                 if (j == 0 || j == i) {
                     arr[i][j] = 1;
                 }
