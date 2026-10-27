@@ -57,4 +57,15 @@ P27 – Pascal's Triangle
 P28 – Spiral matrix pattern
 
 
-## Day 7
+## Day 7: 26-10-2026 (Strings)
+
+p1 - Basis
+P2 - Convert Lower to UpperCase without toUpperCase()
+P3 - Number of Vowels in a String
+
+
+## Day 8: 27-10-2026
+
+P4 - Palindrome
+P5 - Reverse() a Given String
+p6 - Indexof() [Returns the index of the first matching character, or -1 if it is absent.]

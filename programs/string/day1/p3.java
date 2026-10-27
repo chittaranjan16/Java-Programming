@@ -1,0 +1,21 @@
+package string.day1;
+
+//to find the no. of vowels in a string
+public class p3 {
+    public static void main(String[] args) {
+
+        String s = "programming";
+
+        int count = 0;
+        for(int i = 0 ; i< s.length() ; i++){
+
+            char ch = s.charAt(i);
+
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                count++;
+            }
+        }
+
+        System.out.println("NUMBER OF VOWELS IN STRING : "+ s + " ARE = " + count );
+    }
+}

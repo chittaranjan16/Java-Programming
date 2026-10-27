@@ -1,5 +1,6 @@
-package string;
+package string.day1;
 
+//to convert lower to upper without toUpperCase()
 import java.util.Arrays;
 
 class p2{

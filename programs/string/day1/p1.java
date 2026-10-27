@@ -1,4 +1,4 @@
-package string;
+package string.day1;
 
 public class p1 {
     static void main(String[] args) {
