@@ -69,3 +69,4 @@ P3 - Number of Vowels in a String
 P4 - Palindrome
 P5 - Reverse() a Given String
 p6 - Indexof() [Returns the index of the first matching character, or -1 if it is absent.]
+P7 - reverse the word in string sentence  (java  is lang = avaj si ganl )

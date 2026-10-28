@@ -22,7 +22,8 @@ public class p1 {
 
         String s = "12JAVA123";
 
-                for (int i = 0; i < s.length(); i++) {
+                for (int i = 0; i < s.length(); i++)
+                {
                     System.out.println(s.charAt(i));
                 }
 
