@@ -1,4 +1,4 @@
-package day3_sorting;
+package array.day1.day3_sorting;
 
 import java.util.Arrays;
 //selection sorting

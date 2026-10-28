@@ -7,18 +7,32 @@ public class p5 {
         String s = "developer";
         System.out.println(rev(s));
 
+//        rev(s);
+
     }
 
 
 
 //    reverse method
-    public static String rev(String s){
+    public static String rev(String s) {
 
         String rev = "";
-        for(int i = s.length()-1 ; i>= 0 ; i--){
+        for (int i = s.length() - 1; i >= 0; i--) {
 
             rev = rev + s.charAt(i);
         }
         return rev;
     }
+
+
+//        for(int i = 0 ; i < s.length() ; i++){
+//
+//            char ch =s.charAt(s.length()-1-i);
+//
+//            rev = rev + ch;
+//        }
+//        System.out.println(rev);
+
+
+
 }

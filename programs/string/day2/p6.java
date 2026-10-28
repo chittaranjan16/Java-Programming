@@ -1,5 +1,6 @@
 package string.day2;
 
+//    indexof() method creation in string
 public class p6 {
     public static void main(String[] args) {
 
