@@ -10,11 +10,9 @@ public class p11 {
             char ch = s.charAt(i);
 
             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-
-                System.out.println(ch);
+                System.out.print(ch + " ");
             }
         }
-
 
     }
 

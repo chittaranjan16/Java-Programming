@@ -10,7 +10,6 @@ public class p9 {
     }
 
 
-
     public static String rePlace(String s , char target , char replaceValue ){
 
         char[] arr = s.toCharArray();

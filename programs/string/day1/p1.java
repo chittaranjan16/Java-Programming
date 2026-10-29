@@ -46,7 +46,10 @@ public class p1 {
         }
 
 
-        String r = ("hello");
+        String r = "raBBit";
+         r=r.toUpperCase();
+        System.out.println(r);
+
         
 
 
