@@ -6,51 +6,21 @@ package string.day4;
 public class p8 {
     public static void main(String[] args) {
 
-        String str = "AssmnAN";
+        String s = "AssmnAN";
+        char[] ch =  s.toCharArray();
 
-//        for(int i=0;i<str.length();i++){
-//            if(str.charAt(i)=='s'){
-//                System.out.println("indes is "+i);
-//                break;
-//            }
-//        }
+        for (int i = 0 ; i < ch.length ; i++){
+            int count = 1;
 
-         char c[]=str.toCharArray();
+            if(ch[i] == '\u0000') continue;
 
-        for(int i=0;i<c.length;i++){
-            int count=0;
-            for(int j=i+1;j<c.length-1;j++){
-                if(c[i]==c[j]){
+            for(int j = i+1 ; j < ch.length ; j++){
+                if(ch[i] == ch[j]){
                     count++;
-                    c[j]=' ';
-
+                    ch[j]= '\u0000';
                 }
-
             }
-            System.out.println(c[i]+":"+count);
+            System.out.println(ch[i] + " : " + count);
         }
-
-
-
-//        for(int i = 0 ; i < str.length() ; i++ )
-//        {
-//            boolean alreadyCounted = false;
-//
-//            int count = 1;
-//            for(int j = i+1; j < str.length()-1 ; j++ ){
-//
-//                if(str.charAt(i) == str.charAt(j)){
-//                    alreadyCounted = true;
-//                    count++;
-//                }
-//            }
-//
-//            System.out.println(str.charAt(i) + " : " + count + "  ");
-//        }
-
-
-
-
-
     }
 }

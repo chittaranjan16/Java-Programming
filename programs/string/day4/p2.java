@@ -13,7 +13,6 @@ public class p2 {
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
 
-
             // Character.isDigits()  checks and return true & false based on digits
 
             if (Character.isDigit(ch))
@@ -27,8 +26,4 @@ public class p2 {
         System.out.println(num + special + letters);
 
     }
-
-
-
-
 }

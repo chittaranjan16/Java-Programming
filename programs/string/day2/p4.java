@@ -10,7 +10,6 @@ public class p4 {
     }
 
 
-
     public static boolean isPalindrome(String s1){
 
         int i = 0 ;
