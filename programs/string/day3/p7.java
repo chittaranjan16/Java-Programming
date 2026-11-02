@@ -11,15 +11,13 @@ public class p7 {
 
 
         String [] str = s1.split(" ");
+
         for(int i = 0 ; i < str.length ; i++){
 
             str[i] =rev(str[i]);
 
-
         }
-
         System.out.println(Arrays.toString(str));
-
     }
 
 
